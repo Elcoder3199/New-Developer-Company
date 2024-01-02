@@ -1,0 +1,18 @@
+// Main Btn
+.btn {
+    width: fit-content;
+    padding: 1.3rem 3rem;
+    background-color: $secoundColor;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    border-radius: 0.2rem;
+    border: none;
+    outline: none;
+    display: block;
+    cursor: pointer;
+    color: #fff !important;
+    transition: $main-transition;
+    &:hover {
+        opacity: 0.8;
+    }
+}

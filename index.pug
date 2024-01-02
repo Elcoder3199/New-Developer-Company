@@ -1,0 +1,218 @@
+doctype
+html(lang="en")
+ head
+  //- Main Css File  
+  link(rel="stylesheet" href="css/mainHome.css")
+  //- Normalize File
+  link(rel="stylesheet" href="css/render/normalize.css")
+  //- Fac icon
+  //- Font Awesome
+  link(rel="stylesheet" href="css/fontAwesome/all.min.css")
+  link(rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon")
+  //- Kursor css file
+  link(rel="stylesheet" href="https://unpkg.com/kursor/dist/kursor.css")
+  //- Google Fonts
+  link(rel="preconnect" href="https://fonts.googleapis.com")
+  link(rel="preconnect" href="https://fonts.gstatic.com" crossorigin)
+  link(href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800&family=Poppins:ital,wght@0,100;0,200;0,300;0,500;0,700;0,800;1,300;1,400;1,700&display=swap" rel="stylesheet")
+  meta(charset="UTF-8")
+  meta(name="viewport" content="width=device-width, initial-scale=1.0")
+  title Agency
+ body
+  //- ==== Include Header ======== 
+  include pugIncludes/header.pug
+  //- ==== Start Section Home Design ====
+  .home#home
+   .contentHome
+    h2 Welcome To Our Studio!
+    h1 IT'S NICE TO MEET YOU
+    a.btn(href="#") tell me more
+  .services#services.section
+   .main_title SERVICES
+    p lorem ipsum dollar sit Studio ten fans as me
+   .container
+    .box
+     h3 E-Commerce
+     p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
+
+    .box
+     h3 Responsive Design
+     p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
+
+    .box
+     h3 Web Security
+     p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
+  .portfolio#portfolio.section
+   .main_title PORTFOLIO
+    p lorem ipsum dollar sit Studio ten fans as me
+   .container
+    .box
+     .imageBox
+      img(src="assets/img/portfolio/1.jpg")
+      h2.heading Threads
+      p.disc Illustration
+
+    .box
+     .imageBox
+      img(src="assets/img/portfolio/2.jpg")
+      h2.heading Explore
+      p.disc Graphic Design
+
+    .box
+     .imageBox
+      img(src="assets/img/portfolio/3.jpg")
+      h2.heading Finish
+      p.disc Identity
+
+    .box
+     .imageBox
+      img(src="assets/img/portfolio/4.jpg")
+      h2.heading Lines
+      p.disc Branding
+
+    .box
+     .imageBox
+      img(src="assets/img/portfolio/5.jpg")
+      h2.heading Southwest
+      p.disc Website Design
+
+    .box
+     .imageBox
+      img(src="assets/img/portfolio/6.jpg")
+      h2.heading Window
+      p.disc Photography
+  //- ======== Start About Section ========= 
+  .about#about.section
+   .main_title about
+    p lorem ipsum dollar sit Studio ten fans as me
+   .container
+    .box
+     .imageBox
+      img(src="assets/img/about/1.jpg" class="leftScroll")
+     .contentBox.left
+       h1.date 2009-2011
+       h2 Our Humble Beginnings
+       p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!
+
+    .box
+     .imageBox
+      img(src="assets/img/about/2.jpg" class="rightScroll")
+     .contentBox.right
+       h1.date March 2011
+       h2 An Agency is Born
+       p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!
+
+    .box
+     .imageBox
+      img(src="assets/img/about/3.jpg" class="leftScroll")
+     .contentBox.left
+       h1.date December 2015
+       h2 Transition to Full Service
+       p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!
+
+    .box
+     .imageBox
+      img(src="assets/img/about/4.jpg" class="rightScroll")
+     .contentBox.right
+       h1.date December 2015
+       h2 Transition to Full Service
+       p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!
+
+    .box
+      .circle.leftScroll
+       h5 Be Part Of Our Story!
+
+   //- ====== Start Section Team Design ====== 
+  .team#team.section
+   .main_title OUR AMAZING TEAM
+    p lorem ipsum dollar sit Studio ten fans as me
+   .container
+    .box
+     .imageBox
+      img(src="assets/img/team/1.jpg" class="top")
+     .contentBox
+      h2.name Parveen Anand
+      p.job Lead Designer
+      ul.social
+       li
+        a(href="#")
+         i.fab.fa-facebook
+       li
+        a(href="#")
+         i.fab.fa-linkedin
+       li
+        a(href="#")
+         i.fab.fa-instagram
+
+    .box
+     .imageBox
+      img(src="assets/img/team/2.jpg" class="top")
+     .contentBox
+      h2.name Diana Petersen
+      p.job Lead Marketer
+      ul.social
+       li
+        a(href="#")
+         i.fab.fa-facebook
+       li
+        a(href="#")
+         i.fab.fa-linkedin
+       li
+        a(href="#")
+         i.fab.fa-instagram
+
+    .box
+     .imageBox
+      img(src="assets/img/team/3.jpg" class="top")
+     .contentBox
+      h2.name DLarry Parker
+      p.job Lead Developer
+      ul.social
+       li
+        a(href="#")
+         i.fab.fa-facebook
+       li
+        a(href="#")
+         i.fab.fa-linkedin
+       li
+        a(href="#")
+         i.fab.fa-instagram
+   p(class="disc") Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.
+  .logos
+   .container
+    .box
+     a(href="#")
+      img(src="assets/img/logos/facebook.svg")
+
+    .box
+     a(href="#")
+      img(src="assets/img/logos/microsoft.svg")
+
+    .box
+     a(href="#")
+      img(src="assets/img/logos/google.svg")
+
+    .box
+     a(href="#")
+      img(src="assets/img/logos/ibm.svg")
+
+  .contact#contact.section
+   .main_title Contact US
+     p lorem ipsum dollar sit Studio ten fans as me
+   .container
+     form
+      .personalInf
+        input(type="text" placeholder="Your Name")
+        input(type="email" placeholder="Your Email")
+        input(type="phone" placeholder="Your Phone")
+      .message
+        textarea(placeholder="Your Message")
+   input(class="btn" type="submit" style="margin: 2rem auto; opacity: 0.7;" value="Send Message")
+  //-  ====== Include Footer =======
+  include pugIncludes/foote.pug
+  //-  Kursor js File
+  script(src="https://unpkg.com/kursor")
+  //- Scroll Reveal
+  script(src="https://unpkg.com/scrollreveal")
+  //- Main Js File
+  script(src="js/main.js")

@@ -1,0 +1,21 @@
+.main_title {
+    color: $mainColor;
+    font: {
+        size: 3rem;
+        weight: bold;
+    };
+    @media (max-width: 580px) {
+        font-size: 1.9rem;
+    }
+    margin: 2rem 0;
+    text-transform: uppercase;
+    text-align: center;
+    p {
+        font-size: 0.9rem;
+        color: #0000005e;
+        margin: 0.3rem 0;
+        @media (max-width: 580px) {
+            font-size: 0.7rem;
+        }
+    }
+}

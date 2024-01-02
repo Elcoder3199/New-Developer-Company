@@ -1,0 +1,42 @@
+// Start footer Design
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 70px;
+    @media (max-width: 870px) {
+        flex-direction: column-reverse;
+        height: 130px;
+    }
+    .copyRight {
+        font-size: 1.1rem;
+        color: $mainColor;
+    }
+    .socialMedia {
+        display: flex;
+        align-items: center;
+        a {
+            border-radius: 50%;
+            padding: 0.7rem;
+            background-color: $mainColor;
+            margin: 0 1rem;
+            display: block;
+            cursor: pointer;
+            transition: $main-transition;
+            &:hover {
+                i {
+                    color: $secoundColor;
+                }
+            }
+            i {
+                color: #fff;
+            }
+        }
+    }
+    .footerLinks {
+        a {
+            padding: 0 1rem;
+            color: $mainColor;
+        }
+    }
+}
